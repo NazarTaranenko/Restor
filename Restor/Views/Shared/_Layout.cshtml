@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    
+    @await Html.PartialAsync("Metatags")
+    @await Html.PartialAsync("CssPartial")
+    
+</head>
+<body>
+   @await Html.PartialAsync("header")
+
+   @RenderBody();
+   @await Html.PartialAsync("_ValidationScriptsPartial")
+</body>
+</html>

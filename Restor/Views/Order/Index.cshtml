@@ -1,0 +1,36 @@
+﻿@model Restor.Models.Customer
+
+<div class="flex-container">
+     <div class="flex-item">
+    <img src="~/Restoran.png" width="100%" height="500px" alt="Шапка">
+  </div>
+<div class="flex-item">
+  <div class="recomendation3">
+    <h1>
+      
+    </h1>
+      <form asp-action="Index" asp-controller="Order" >
+    <p>
+        <label asp-for="Name">Ім'я</label><br />
+        <input type="text" asp-for="Name" />
+    </p>
+    <p>
+        <label asp-for="LastName">Прізвище</label><br />
+        <input type="text" asp-for="LastName"/>
+    </p>
+  
+    <p>
+        <label asp-for="PhoneNumber">Телефонний номер</label><br />
+        <input type="text" asp-for="PhoneNumber" />
+    </p>
+     <p>
+        <label asp-for="Adress">Адреса</label><br />
+        <input type="text" asp-for="Adress" />
+    </p>
+    <p>
+        <input type="submit" value="Відправити" />
+    </p>
+</form>
+</div>
+</div>
+</div>

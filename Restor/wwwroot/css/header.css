@@ -1,0 +1,61 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#main-header {
+    position: fixed;
+    background-color: #fff;
+    padding: 20px;
+    height: 90px;
+    width: 96%;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 2.5s ease;
+    border-radius: 5px;
+}
+
+
+#logo {
+    float: left;
+    margin-top: -15px;
+    height: 100px;
+    width: 100px;
+    transition: transform 0.5s ease;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 20px;
+}
+
+.chevron-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(84,58,58);
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+ 
+}
+
+    .chevron-btn a {
+        color: white;
+        text-decoration:none;
+    }
+
+    .career-link {
+        margin-right: 30px;
+        font-size: 20px;
+        color: black;
+
+    }
+        .career-link a {
+            color: black;
+        }

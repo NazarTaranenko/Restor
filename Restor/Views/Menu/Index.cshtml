@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="flex-container">
+<div class="flex-item">
+  <div class="recomendation1">
+     
+    @foreach (Meal item in Model){
+    <table class="flex-item1" >
+  <tbody>
+  <tr>
+    <td><img src =@item.Srcimg width="200px" height="150px" alt="img"></td>
+    <th>@item.Name</th>
+      <td >@item.Description</td>
+      <td>
+          <a class="zamov" asp-action="Index" asp-controller="Order">Замовити</a>
+      </td>
+  </tr>
+  </tbody>
+</table>
+    }
+</div>
+</div>
+</div>
+</div>
